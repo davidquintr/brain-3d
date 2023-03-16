@@ -14,6 +14,10 @@ public class SetChangeTarget : MonoBehaviour{
     public GameObject thisRef;
     private CameraBehavior behavCamera;
 
+    public GameObject brainTransp;
+    public GameObject brain;
+    public GameObject lymbic;
+
     public Text textRef;
     
     
@@ -45,5 +49,18 @@ public class SetChangeTarget : MonoBehaviour{
         ButtonSystem.SetActive((defaultTarget) ? false : true);
 
         thisRef.GetComponent<Button>().GetComponentInChildren<TextMeshProUGUI>().text = (defaultTarget) ? "Partes internas" : "Partes externas";
+
+        if (defaultTarget){
+            brainTransp.SetActive(false);
+            lymbic.SetActive(false);
+            brain.SetActive(true);
+        }
+        else{
+            brainTransp.SetActive(true);
+            lymbic.SetActive(true);
+            brain.SetActive(false);
+        }
+
+
     }
 }

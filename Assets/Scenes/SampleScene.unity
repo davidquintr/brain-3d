@@ -869,6 +869,11 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.5882649, y: 0.608247, z: 0.6964274}
   m_Center: {x: -0.99072266, y: 3.706042, z: 0.45413476}
+--- !u!1 &591803619 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ec410c3892ce7114299285c6b696e300, type: 3}
+  m_PrefabInstance: {fileID: 1736646369}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &602900438
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1845,6 +1850,9 @@ MonoBehaviour:
   ButtonAlt: {fileID: 1812318997}
   ButtonSystem: {fileID: 1284844144}
   thisRef: {fileID: 1113826565}
+  brainTransp: {fileID: 148613954}
+  brain: {fileID: 1235196822}
+  lymbic: {fileID: 591803619}
   textRef: {fileID: 0}
 --- !u!114 &1113826568
 MonoBehaviour:
@@ -1869,7 +1877,7 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_PressedColor: {r: 0.5137255, g: 0.7176471, b: 0.65139616, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -2237,6 +2245,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1157153260}
   m_CullTransparentMesh: 1
+--- !u!1 &1235196822 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: dd2dcd52e257f2847bc53b28573dd497, type: 3}
+  m_PrefabInstance: {fileID: 648673054}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1269894436
 GameObject:
   m_ObjectHideFlags: 0
@@ -2409,7 +2422,7 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_PressedColor: {r: 0.51000357, g: 0.5314657, b: 0.7169812, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -3569,7 +3582,7 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_PressedColor: {r: 0.7176471, g: 0.563625, b: 0.5137255, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
